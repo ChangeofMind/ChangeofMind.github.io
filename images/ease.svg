@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="53px" height="53px" viewBox="0 0 53 53" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.2 (9961) - http://www.bohemiancoding.com/sketch -->
+    <title>ease</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="ease" sketch:type="MSLayerGroup" transform="translate(2.000000, 2.000000)">
+            <g id="Rectangle-254-+-Path-2743" transform="translate(25.000000, 24.500000) scale(-1, 1) translate(-25.000000, -24.500000) " stroke="#424242" stroke-width="2" sketch:type="MSShapeGroup">
+                <path d="M48.5975562,23.0588235 C49.3721045,23.0588235 50,23.7000697 50,24.4904849 L50,47.5683386 C50,48.3590234 49.3718405,49 48.5975562,49 L25.9906791,49 C25.2161308,49 24.5882353,48.3587539 24.5882353,47.5683386 L24.5882353,24.9413149 C24.5882353,24.3889537 24.1451855,23.9411765 23.5877083,23.9411765 L15.4024438,23.9411765 C14.6278955,23.9411765 14,23.2999303 14,22.5095151 L14,1.43166137 C14,0.640976627 14.6281595,0 15.4024438,0 L38.0093209,0 C38.7838692,0 39.4117647,0.641246122 39.4117647,1.43166137 L39.4117647,22.0590754 C39.4117647,22.611221 39.8548145,23.0588235 40.4122917,23.0588235 L48.5975562,23.0588235 Z" id="Rectangle-254"></path>
+                <path d="M21,24 C21,24 20.5613852,24 20.0012539,24 L0.998746091,24 C0.447153856,24 2.62830535e-17,24.4552629 5.74693245e-17,24.995457 L1.38582061e-15,48.004543 C1.41756004e-15,48.5543187 0.442761964,49 0.993663412,49 L14.7942315,49" id="Path-2743" stroke-linecap="round"></path>
+            </g>
+            <text id="A" sketch:type="MSTextLayer" font-family="Avenir Next" font-size="15.4" font-weight="420" fill="#424242">
+                <tspan x="18" y="18">A</tspan>
+            </text>
+            <text id="B" sketch:type="MSTextLayer" font-family="Avenir Next" font-size="15.4" font-weight="420" fill="#424242">
+                <tspan x="8" y="42">B</tspan>
+            </text>
+            <text id="C" sketch:type="MSTextLayer" font-family="Avenir Next" font-size="15.4" font-weight="420" fill="#424242">
+                <tspan x="32" y="42">C</tspan>
+            </text>
+        </g>
+    </g>
+</svg>

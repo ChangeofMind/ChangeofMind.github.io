@@ -1,0 +1,265 @@
+/**********************
+MAIN
+**********************/
+
+.newsletter:not( .newsletter--active ) input[type='submit'] {
+    display: none;
+}
+
+body {
+	    min-width: 100%;
+	    margin-left: 0;
+	    margin-right: 0;
+}
+
+img {
+		max-width: 50%;
+		max-height: 50%;
+}
+
+.icon {
+		max-height: 35.3px ;
+		max-width: 17.8px;
+}
+
+
+h1 {	
+		font-family: 'Lato';
+		font-weight: 300;
+		color: #ABABAB;
+		text-rendering: optimizeLegibility;
+		letter-spacing: .05em;
+		font-size: 95px;
+}
+
+h3 {	
+		font-family: 'Lato', sans-serif;
+		font-size: 16px;
+		text-rendering: optimizeLegibility;
+		letter-spacing: 1.5px;
+		line-height: 1.75;
+		font-weight: 400;
+}
+
+h4 {
+		font-family: 'Lato',sans-serif;
+		font-weight: 400;
+		letter-spacing: 1px;
+}
+
+.logo {
+		font-family: 'Josefin Sans', sans-serif;
+		font-weight: 700;
+		letter-spacing: 4px;
+		text-transform: uppercase;
+}
+
+p {
+		font-weight: 500;
+		font-family: 'Lato', sans-serif;
+		text-transform: uppercase;
+		letter-spacing: 1.5px;
+		font-size: 13px;
+}
+
+.tagline {
+	  -webkit-animation: fadein 4s; /* Safari and Chrome */
+       -moz-animation: fadein 4s; /* Firefox */
+        -ms-animation: fadein 4s; /* Internet Explorer */
+         -o-animation: fadein 4s; /* Opera */
+            animation: fadein 4s;
+}
+
+.foot {
+		font-size: 11px;
+}
+
+
+
+
+
+/**********************
+HEADER 
+**********************/
+
+.greeting {
+		background-color: #71B0FA; 
+	
+}
+
+ul {
+		list-style-type:none;
+		margin-top: 0;
+		-webkit-padding-start: 0px;
+
+}
+
+
+li {
+		font-family: 'Lato', sans-serif;
+		font-weight: 400;
+		font-size: 28px;
+		text-rendering: optimizeLegibility;
+		text-decoration: none;
+}
+
+.tagline {
+	  -webkit-animation: fadein 3s; /* Safari and Chrome */
+       -moz-animation: fadein 3s; /* Firefox */
+        -ms-animation: fadein 3s; /* Internet Explorer */
+         -o-animation: fadein 3s; /* Opera */
+            animation: fadein 3s;
+}
+
+@keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+/* Firefox */
+@-moz-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+/* Safari and Chrome */
+@-webkit-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+/* Internet Explorer */
+@-ms-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+back {
+		background-image: 
+}
+
+
+
+/********************** 
+LINKS
+**********************/
+.button {
+		text-decoration: none;
+		border-radius: 2rem;
+		border: 2px solid;
+		display: inline-block;
+		padding: 1rem 3rem;
+		font-size: 16px;
+		color: #FFF;
+		text-transform: uppercase;
+		background-color: #EAC478;
+		letter-spacing: 2px;
+}
+
+
+.button:hover {
+		color: #B8705D;
+  		-webkit-transition-property: color;
+  		-webkit-transition-duration: 0.4s;
+  		-webkit-transition-timing-function: ease;
+}
+
+a {		
+		text-transform: uppercase;
+		text-decoration: none;
+	    list-style-type: none;
+	    font-family: 'Lato', sans-serif;
+		font-size: 16px;
+		text-rendering: optimizeLegibility;
+		color: #ABABAB;
+		line-height: 22px;
+		letter-spacing: 2.5px;
+}
+
+a:hover {
+  		color: #3265A1;
+  		-webkit-transition-property: color;
+  		-webkit-transition-duration: 0.4s;
+  		-webkit-transition-timing-function: ease;
+}
+
+
+.form {
+		line-height: 1.5;
+		font-size: 1.4em;
+		padding: 15px 30px;
+		display: block;
+		background: transparent;
+}
+.inpot {
+		border: 2px solid #FFF;
+		text-decoration: none;
+		border-radius: 5px;
+		display: inline-block;
+		letter-spacing: 0.08em;
+		margin-bottom: 0.5em;
+		padding: 0.5em 0.7em;
+		text-transform: uppercase;
+		background: #E9CF9A;
+		color: #FFF;
+}
+
+.btns, .btns:link, .btns:visited {
+  border-radius: .2em;
+  border-color: #EAC478;
+  border-style: solid;
+  color: #EAC478;
+  display: inline-block;
+  font-size: 18px;
+  letter-spacing: 0.15em;
+  margin-bottom: 0.5em;
+  padding: 1em 2.5em;
+  text-decoration: none;
+  text-transform: uppercase;
+  background-color: #FFF;
+  -webkit-transition: color 0.4s, background-color 0.4s, border 0.4s;
+  transition: color 0.4s, background-color 0.4s, border 0.4s; }
+
+input:focus,
+select:focus,
+textarea:focus,
+button:focus {
+    outline: none;
+}
+
+.btns:hover {
+  border-color: #B8705D;
+  -webkit-transition: background-color 0.3s, color 0.3s, border 0.3s;
+  transition: background-color 0.3s, color 0.3s, border 0.3s; }
+
+.btns:active {
+  color: #B8705D;
+  -webkit-transition: background-color 0.3s, color 0.3s, border 0.3s;
+  transition: background-color 0.3s, color 0.3s, border 0.3s; }
+
+
+}
+
+.placeholder {
+		color: #fff;
+}
+
+::-webkit-input-placeholder {
+    color:    #EAC478;
+}
+
+
+:-moz-placeholder {
+    color:    #EAC478;
+}
+
+
+::-moz-placeholder {
+    color:    #EAC478;
+}
+
+
+:-ms-input-placeholder {
+    color:    #EAC478;
+}
+
