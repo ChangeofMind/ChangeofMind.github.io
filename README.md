@@ -1,1 +1,0 @@
-# ChangeofMind.github.io
