@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="134px" height="126px" viewBox="0 0 134 126" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.3 (11970) - http://www.bohemiancoding.com/sketch -->
+    <title>stigma</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="stigma" sketch:type="MSLayerGroup" transform="translate(1.812500, 1.500000)">
+            <path d="M130.293316,96.7066836 C130.683607,96.316393 130.553891,96 130.007035,96 L104,96 L104,122.007035 C104,122.555434 104.31394,122.68606 104.706684,122.293316 L115.29709,111.70291 L123.553738,119.959558 L125.756648,122.162467 L130.162467,117.756648 L127.959558,115.553738 L119.70291,107.29709 L130.293316,96.7066836 Z" id="Rectangle-2231-Copy" stroke="#45D292" stroke-width="2.8" sketch:type="MSShapeGroup"></path>
+            <path d="M130.293316,0.706683601 C130.683607,0.316393025 130.553891,0 130.007035,0 L104,0 L104,26.0070346 C104,26.5554342 104.31394,26.6860603 104.706684,26.2933164 L115.29709,15.7029096 L123.553738,23.9595576 L125.756648,26.1624672 L130.162467,21.756648 L127.959558,19.5537384 L119.70291,11.2970904 L130.293316,0.706683601 Z" id="Rectangle-2231-Copy" stroke="#45D292" stroke-width="2.8" sketch:type="MSShapeGroup" transform="translate(117.500000, 13.500000) scale(1, -1) translate(-117.500000, -13.500000) "></path>
+            <path d="M26.2933164,96.7066836 C26.683607,96.316393 26.5538914,96 26.0070346,96 L0,96 L0,122.007035 C0,122.555434 0.31393969,122.68606 0.706683601,122.293316 L11.2970904,111.70291 L19.5537384,119.959558 L21.756648,122.162467 L26.1624672,117.756648 L23.9595576,115.553738 L15.7029096,107.29709 L26.2933164,96.7066836 Z" id="Rectangle-2231-Copy" stroke="#45D292" stroke-width="2.8" sketch:type="MSShapeGroup" transform="translate(13.500000, 109.500000) scale(-1, 1) translate(-13.500000, -109.500000) "></path>
+            <path d="M26.2933164,0.706683601 C26.683607,0.316393025 26.5538914,0 26.0070346,0 L0,0 L0,26.0070346 C0,26.5554342 0.31393969,26.6860603 0.706683601,26.2933164 L11.2970904,15.7029096 L19.5537384,23.9595576 L21.756648,26.1624672 L26.1624672,21.756648 L23.9595576,19.5537384 L15.7029096,11.2970904 L26.2933164,0.706683601 Z" id="Rectangle-2231-Copy" stroke="#45D292" stroke-width="2.8" sketch:type="MSShapeGroup" transform="translate(13.500000, 13.500000) scale(-1, -1) translate(-13.500000, -13.500000) "></path>
+            <path d="M15.15625,43.0848263 C15.15625,39.2161086 18.2887523,36.0798933 22.1582911,36.0798933 L103.11604,36.0798933 C106.98316,36.0798933 110.118081,39.2152422 110.118081,43.0768332 L110.118081,70.5531322 L121.09375,86.0798933 L110.118081,86.0798933 L22.1582911,86.0798933 C18.2911706,86.0798933 15.15625,82.9521694 15.15625,79.0749603 L15.15625,43.0848263 Z" id="Rectangle-2235-Copy" stroke="#45D292" stroke-width="2.8" sketch:type="MSShapeGroup"></path>
+            <text id="@$!*-copy" sketch:type="MSTextLayer" font-family="Avenir Next" font-size="26" font-weight="526" letter-spacing="5" fill="#45D292">
+                <tspan x="24.125" y="71">@$!</tspan>
+                <tspan x="84.625" y="71">*</tspan>
+            </text>
+        </g>
+    </g>
+</svg>

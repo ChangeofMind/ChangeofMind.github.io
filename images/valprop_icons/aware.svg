@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="132px" height="125px" viewBox="0 0 132 125" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.3 (11970) - http://www.bohemiancoding.com/sketch -->
+    <title>aware</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="aware" sketch:type="MSLayerGroup" transform="translate(0.750000, 1.500000)" stroke="#45D292">
+            <path d="M81.0895528,97.8833897 C94.5389073,92.1841201 103.971043,78.8845646 103.971043,63.3871123 C103.971043,42.697359 87.1597914,25.925 66.4220619,25.925 C50.0514024,25.925 36.1276254,36.3771128 30.9893068,50.9574267 L30.9893068,50.9574267 L20.6416318,76.2163438 C20.0186935,77.7369508 20.8523713,78.9872223 22.5125853,78.9872223 L29.1925872,78.9872223 L29.1925872,95.7127706 C29.1925872,97.3730075 30.5382136,98.7172345 32.198128,98.7172345 L46.2880582,98.7172345 L46.2880582,103.943156 C46.2880582,105.594716 47.6299847,106.940625 49.2853348,106.940625 L78.0922762,106.940625 C79.7466171,106.940625 81.0895528,105.598612 81.0895528,103.943156 L81.0895528,97.8833897 Z" id="Oval-278" stroke-width="2.8" sketch:type="MSShapeGroup"></path>
+            <g id="Oval-279-+-Oval-280" transform="translate(47.189657, 42.371781)" stroke-width="2.80000019" sketch:type="MSShapeGroup">
+                <ellipse id="Oval-279" cx="20.1482337" cy="20.1016212" rx="20.1482337" ry="20.1016212"></ellipse>
+            </g>
+            <rect id="Rectangle-1087" stroke-width="2.8" sketch:type="MSShapeGroup" x="51.7962006" y="113.421875" width="23.7650036" height="8.64166667"></rect>
+            <path d="M65.2626454,13.5026042 L65.2626454,0.540104167" id="Line" stroke-width="2.8" stroke-linecap="round" sketch:type="MSShapeGroup"></path>
+            <path d="M116.285418,59.6551143 L129.247918,59.6551143" id="Line-Copy-3" stroke-width="2.8" stroke-linecap="round" sketch:type="MSShapeGroup"></path>
+            <path d="M0.703126171,59.6551143 L13.6656262,59.6551143" id="Line-Copy-4" stroke-width="2.8" stroke-linecap="round" sketch:type="MSShapeGroup"></path>
+            <path d="M104.789149,27.4791963 L113.95502,18.3133247" id="Line-Copy" stroke-width="2.8" stroke-linecap="round" sketch:type="MSShapeGroup"></path>
+            <path d="M25.7361422,27.4791963 L16.5702705,18.3133247" id="Line-Copy-2" stroke-width="2.8" stroke-linecap="round" sketch:type="MSShapeGroup"></path>
+        </g>
+    </g>
+</svg>

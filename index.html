@@ -2,16 +2,17 @@
 <html>
 <head>
 	<meta charset="utf-8"/>
-	<title> Change of Mind </title>
+	<title>Change of Mind</title>
 	<meta http-equiv="X-UA-Compatible" content="IE=Edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="stylesheet" href="css/style.css">
-	<link rel="stylesheet" href="css/trim.css">
+	<link href="http://d2v52k3cl9vedd.cloudfront.net/basscss/6.0.0/basscss.min.css" rel="stylesheet">
+	<link href="css/basscss.css" rel="stylesheet">
 	<link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
-	<meta name="Change of Mind" content="Sign,Up,Mobile,Web,Platform">
-	<link href='http://fonts.googleapis.com/css?family=Lato:300,400,700,900|Merriweather:400,300,700|Josefin+Sans:700' rel='stylesheet' type='text/css'>
+	<meta name="Change of Mind" content="change,of,mind,chat,anonymous,messaging,app">
+	<link href='http://fonts.googleapis.com/css?family=Lato:300,400,700,900|Merriweather:400,300,700' rel='stylesheet' type='text/css'>
 
-	<!-- Sean::Google Analytics -->
+<!-- Sean::Google Analytics -->
 	<script>
 	
   	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
@@ -23,81 +24,294 @@
   	ga('send', 'pageview');
 
 	</script>
+
 </head>
-<body class="body">
+<body>
 
+<!-- HEADER -->
 
-	<!-- HEADER -->
+	<header class="clearfix header color">
+		<div class="sm-col-10 md-col-8 lg-col-6 mx-auto center m4">
 
-		<header class="pvs" style="background: #E4B563;  ">
-
-		<div class=" ">
-			<div class="mw8 center tc">
-				<img class="icon mbm mtl" src="images/logo.png">	
-				<h2 class="white logo mw8 tc center db f1 f2-ns pas phl-l">Change of Mind </h2>
+			<div class="mt4 mb1">
+				<img class="logo" src="images/changelogo.png">
 			</div>
 
-			<div class="mw8 center">
-				<h1 class="tagline mega-l f1-ns f2 white mw8 center tc mbm
-				pvxl phm ">Change of Mind is helping patients better manage and understand their Anxiety.</h1>
+	 		<h1 class="md-hide h2 white lato wider bold center">CHANGE OF MIND</h1>
+	 		<h1 class="md-show white lato wider bold center">CHANGE OF MIND</h1>
+
+
+
+			<div class="mt4">
+				<p class="md-hide h2 lato white">Talk it out.</p>
+				<p class="md-show h1 lato white">Talk it out.</p>
+				<p class="md-hide h5 px2 white lato transparent">Find the support you need, when you need it.</p>
+				<p class="md-show h3 px2 white lato transparent">Find the support you need, when you need it.</p>
+			</div>
+
+			<div class="center mt4">
+				<p class="clearfix h4 lato white transparent">Learn more</p>
+				<div class="center mb2">
+					<img class="smallicon" src="images/down_arrow.png">
+				</div>
+
 			</div>
 		</div>
 
+	</header>
 
-		</header>
+	<!--_____Hero_Photo_____-->
 
+		<div class="">
+			<img src="images/hero_2.png">
+		</div>
 
-		<main>
+	
 
-			<section class="mw9 center tc pvx ptx-l pbn-l">
+<!-- BODY -->
 
-				<section class="mw9 center tc ">
-
-				<div class="mw8 dib tc center pbs ptx wi4-m wi10-l mhm mhxs-l wi5 "><img src="images/time.svg"><p class="gray">MANAGE TIME</p></div>
-
-				<div class="mw8 dib tc center pbs ptx wi4-m wi10-l mhm mhxs-l wi5 "><img src="images/trust.svg"><p class="gray">STRENGTHEN RELATIONSHIPS</p></div>
-
-				<div class="mw8 dib tc center pbs ptx wi4-m wi10-l mhm mhxs-l wi5 "><img src="images/data.svg"><p class="gray">ACCESS PROGRESS</p></div>
-
-				<div class="mw8 dib tc center pbs ptx wi4-m wi10-l mhm mhxs-l wi5 "><img src="images/ease.svg"><p class="gray">EASE OF USE</p></div>
-
-				</section>
-
-			</section>
-
-			<section class="mw8 center pbxl phm tc pbm">
-
-				<h3 class="ptm pbl pvx-m phs phl-l pvxl-l mw8 center tc f4-l mid-gray">Through our mobile/web application, we are transforming the anxiety treatment experience with reminders and on-the-go exercises, allowing for objective progress measurements.  </h3>
-
-				<p class="gray mw8 center pas mvm">For the latest news and updates.</p>
-
-				<!-- SIGN-UP -->
+<!-- SIGN-UP -->
 				
 				<!-- Sean::Added Form -->
 
-				<form action="https://getsimpleform.com/messages?form_api_token=d1c36d35df77883b4e027b191f01f2b4" method="post">
-				<!--input type='hidden' name='redirect_to' value="http://changeofmind.io/index.html" /-->
+	<section class="clearfix mt4 mb4">
+		
+		<h2 class="md-hide h4 center lato">Sign up to recieve updates</h2>
+		<h2 class="md-show h2 center lato">Sign up to recieve updates</h2>
 
-				<input class="btns center tc" type="email" id="email" name="email-address" required placeholder=" Email Address" />
+			<!-- Sean::Added Form  should be change to using php ourselves-->
 
-				<br>
+		<form class="mt2 px1 mx-auto center" action="https://getsimpleform.com/messages?form_api_token=d1c36d35df77883b4e027b191f01f2b4" method="POST">
+		<!--input type='hidden' name='redirect_to' value="http://changeofmind.io/index.html" /-->
+			<fieldset class="fieldset-reset sm-col-6 md-col-4 mx-auto">
+				<input class="mt1 h5 block full-width field-light center lato" type="text" name="email" placeholder="Enter your email address" >
+				<button class="mt2 h6 lato1 wide white round-button px2" type="submit">SUBMIT</button>
+			</fieldset>
+		</form>
 
-				<input class="button center tc mtl" type="submit" name="subscribe" value="subscribe" />
-				</form>
-
-			</section>
-
-		</main>
-
-			
-
-<!-- FOOTER -->
-		<footer>
-			<p class="foot center light-gray tc pvl">Copyright © 2015 Change of Mind</p>
-		</footer>
+	</section>
 
 
+	<!--_____Value_Props_____-->
+
+	<section class="clearfix off-gray">
+
+
+				<div class="md-col md-col-6 sm-col sm-col-12 border center off-gray">
+					<img class="mt4 val-props" src="images/valprop_icons/aware.svg" alt="Increasing self-awareness Value Proposition">
+					<p class="h4 lato bold titles mt2">Increasing self-awareness</p>
+					<p class="lato light-gray mb3 mx-auto center mb4 px2">by giving you a platform to acknowledge your emotions.</p>
+				</div>
+
+				<div class="md-col md-col-6 sm-col sm-col-12 border center off-gray">
+					<img class="mt4 val-props" src="images/valprop_icons/community.svg" alt="Fostering Community Value Proposition">
+					<p class="h4 lato bold titles mt2">Fostering community</p>
+					<p class="lato light-gray mb3 mx-auto center mb4 px2">because it's easier to create positive habits together.</p>
+				</div>
+
+				<div class="md-col md-col-6 sm-col sm-col-12 border center off-gray">
+					<img class="mt4 val-props" src="images/valprop_icons/stigma.svg" alt="Reducing Stigma Value Proposition">
+					<p class="h4 lato bold titles mt2">Reducing stigma</p>
+					<p class="lato light-gray mb3 mx-auto center mb4">because having conversations is the first place the start.</p>
+				</div>
+
+				<div class="md-col md-col-6 sm-col sm-col-12 border center off-gray">
+					<img class="mt4 val-props" src="images/valprop_icons/accessibility.svg" alt="Increasing Accessibility Value Proposition">
+					<p class="h4 lato bold titles mt2">Easing access</p>
+					<p class="lato light-gray mb3 mx-auto center mb4 px2">because support should never be out of arm's reach.</p>
+				</div>
+
+
+
+	</section>
+
+	<!--_____LARGE FEATURES_____-->
+	<!-- Trying to use .flex like on http://www.basscss.com/docs/guides/flex-layout/, but I'm sure this show/hide method is horrible horrible coding -->
+
+
+<!-- __________Mental Selfie___________ -->
+	<section class="clearfix md-hide">
+
+		<div class="col-12 mx-auto border ">
+
+			<div class="sm-col sm-col-12 center">
+				<img class="mt2 pb0	" src="images/tilt2_selfie.png" alt=" Screenshot of Mental Selfie Feature" width="360">
+			</div>
+
+			<div class="sm-col-7 mx-auto">
+				<h3 class="h2 mt0 lato bold titles titles">Snap a Mental Selfie</h3>
+				<p class="h4 lato light-gray mb3 mx-auto ">It's a case of helping us help you. <br>
+				Give us some background, and <br>
+				we'll pair you up with someone who can relate. <br>
+				Share as much as you want; it's anonymous./p>
+			</div>
+
+		</div>
+	</section>
+
+
+	<section class="md-show clearfix">
+		<div class="md-col-10 lg-col-8 mx-auto">
+			<div class=" flex-auto p2">
+				  <p class="hide">Don't know why I need this...</p>
+				  <div class="sm-flex flex-center">
+
+					  <div class="flex-auto p2 right">
+					  	<div class="right">
+
+					  	<h3 class="h2 lato bold titles mt2 titles ">Snap a Mental Selfie</h3>
+						<p class="h3 lato light-gray mb3 	">It's a case of helping us help you. <br>
+						Give us some background, and <br>
+						we'll pair you up with someone who can relate. <br>
+						Share as much as you want; it's anonynous.</p>
+						</div>
+
+					  </div>
+
+				  	<img src="images/tilt2_selfie.png" width="360" class="flex-first m2"/>
+				   </div>
+			</div>
+		</div>
+	</section>
+		<!-- ____chat_______ -->
+
+	<section class="clearfix md-hide">
+
+		<div class="col-12 mx-auto border">
+		<!-- I want to include an <hr> here, but it won't show up. Not sure why.. -->
+
+			<div class="sm-col sm-col-12 center">
+				<img class=" py1" src="images/tilt2_chat.png" alt="Screenshot of Chat Feature" width="360">
+			</div>
+
+			<div class="sm-col-7 mx-auto">
+				<h3 class="h2 mt0 lato bold titles titles">Empathy Chatting</h3>
+				<p class="h4 lato light-gray mb3 mx-auto	">A safe space means being able to expressing yourself. <br>
+				Let the weight off your shoulders <br>
+				and get authentic feedback from<br>
+				a peer who cares about your well-being.</p>
+			</div>
+
+
+
+		</div>
+
+	</section>
+
+	<section class="md-show clearfix">
+		<div class="md-col-10 lg-col-8 mx-auto">
+			<div class=" flex-auto p2">
+				  <p class="hide">Don't know why I need this...</p>
+				  <div class="sm-flex flex-center">
+
+					  <div class="flex-auto p2 ">
+
+					  	<h3 class="h2 lato bold titles mt2 titles">Empathy Chatting</h3>
+						<p class="h3 lato light-gray mb3 ">A safe space means being able <br>
+						to expressing yourself. <br>	
+						Let the weight off your shoulders <br>
+						and get authentic feedback from<br>
+						a peer who cares about your well-being.</p>
+
+					  </div>
+
+				  	<img src="images/tilt2_chat.png" width="360" class="flex-last m2" alt="screen of chat function"/>
+				   </div>
+			</div>
+		</div>
+	</section>
+
+
+
+	<!--_____The Team_____-->
+
+
+	<section class="clearfix">
+		<div class="col-12 mx-auto">
+
+	
+			<div class="sm-col sm-col-12 md-col md-col-6 lg-col lg-col-4 center border off-gray">
+				<img class="mt3" src="images/team/seanma.png" width="125px">
+				<p class="lato h4 mb0 titles">Sean Ma</p>
+				<p class="lato h5 light-gray italic">"Chief Technology Officer"</p>
+			</div>
+
+			<div class="sm-col sm-col-12 md-col md-col-6 lg-col lg-col-4 center border off-gray">
+				<img class="mt3" src="images/team/sushmidira.png" width="125px">
+				<p class="lato h4 mb0 titles">Sushmi Diraviam</p>
+				<p class="lato h5 light-gray italic">"Chief Marketing Officer"</p>
+			</div>
+
+			<div class="sm-col sm-col-12 md-col md-col-6 lg-col lg-col-4 center border off-gray">
+				<img class="mt3" src="images/team/lameesmekk.png" width="125px">
+				<p class="lato h4 mb0 titles">Lamees Mekkaoui</p>
+				<p class="lato h5 light-gray italic">"Chief Community Engagement Officer"</p>
+			</div>
+
+			<div class="sm-col sm-col-12 md-col md-col-6 lg-col lg-col-4 center border off-gray">
+				<img class="mt3" src="images/team/evanjon.png" width="125px">
+				<p class="lato h4 mb0 titles">Evan Jon Gennrich</p>
+				<p class="lato h5 light-gray italic">"Chief Storyteller"</p>
+			</div>
+
+
+			<div class="sm-col sm-col-12 md-col md-col-6 lg-col lg-col-4 center border off-gray">
+				<img class="mt3" src="images/team/augustaar.png" width="125px">
+				<p class="lato h4 mb0 titles">August Schippert</p>
+				<p class="lato h5 light-gray italic">"Chief Creative Officer"</p>
+			</div>
+
+
+			<div class="sm-col sm-col-12 md-col md-col-6 lg-col lg-col-4 center border off-gray">
+				<img class="mt3" src="images/team/shaunho.png" width="125px	">
+				<p class="lato h4 mb0 titles">Shawn Ho</p>
+				<p class="lato h5 light-gray italic">"Chief Content Director"</p>
+			</div>
+
+		</div>			
+
+	</section>
+
+
+	<!--_____alpha test_____-->
+
+
+<!-- 	<section class="clearfix mt4 mb4">
+		
+		<h2 class="md-hide h4 center lato">Be apart of the movement today</h2>
+		<h2 class="md-show h2 center lato">Be apart of the movement today</h2>
+
+		<form class="mt2 px1 mx-auto center" action="mentalselfieform.php" method="POST" id="usernameInput">
+	    		<fieldset class="fieldset-reset sm-col-6 md-col-4 mx-auto">
+			    	<input id="username" class="mt1 h5 block full-width field-light center lato" type="text" name="username" required placeholder="Type in a one-time, anonymous username">
+			    	<button class="mt2 h6 lato1 wide white round-button px2" type="submit">Try it now</button>
+			   </fieldset>
+		</form>
+
+	</section> -->
+
+
+
+
+	<!--_____footer_____-->
+
+
+	<footer class="footer clearfix off-gray px3 py3">
+
+			<div class="col">
+			  <p class="lato blue px2 h5 py2 mb0">&copy; 2015 CHANGE OF MIND</p>
+			</div>
+
+			<div class="col-right">
+<!-- 			 <a href="/" class="lato button py2 button-transparent">About us</a>
+			  <a href="/" class="lato button py2 button-transparent">Blog</a> -->
+			  <a href="/" class="lato button py2 button-transparent blue">Twitter</a>
+			</div>
+
+
+	</footer>
 
 </body>
-</html>
 
+
+</html>
