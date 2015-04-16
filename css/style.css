@@ -1,3 +1,11 @@
+html {
+    zoom: 1; /* Old IE only */
+    -moz-transform: scale(1);
+    -webkit-transform: scale(1);
+    transform: scale(1);
+}
+
+
 .sans-serif { 
 	font-family: 'avenir next', avenir, helvetica, 'helvetica neue', arial, sans-serif ;
 }
