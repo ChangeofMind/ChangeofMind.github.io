@@ -76,92 +76,101 @@ session_start();
 
 		
 
-			<header class="clearfix header color">
-				<div class="sm-col-10 md-col-8 lg-col-6 mx-auto center">
+			
+	<header class="clearfix header color">
+		<div class="sm-col-10 md-col-8 lg-col-6 mx-auto center m3">
 
-					<div class="mt4 mb1">
-						<img class="logo" src="images/changelogo.png">
-					</div>
-
-			 		<h1 class="md-hide h4 white lato wider bold center">CHANGE OF MIND</h1>
-			 		<h1 class="md-show h2 white lato wider bold center">CHANGE OF MIND</h1>
-
+			<div class="mt3 mb1">
+				<a class="white lato wider bold" href="changeofmind.io"><img class="logo" src="images/changelogo.png"></a>
+				<h1 class="h3 md-hide white lato wider bold center">CHANGE OF MIND</h1>
+ 				<h1 class="h1 md-show white lato wider bold center">CHANGE OF MIND</h1>
+			</div>
 
 
-					<div class="mt4">
-						<p class="md-hide h2 lato white">Easing the tension.</p>
-						<p class="md-show h1 lato white">Easing the tension.</p>
-						<p class="md-hide h5 px2 white lato transparent">Chat anonymously about your stress, or buddy up and practice mindfulness!</p>
-						<p class="md-show h3 px2 white lato transparent">Chat anonymously about your stress, or buddy up and practice mindfulness!</p>
-					</div>
+			<div class="mt4">
+				<p class="md-hide h3 lato white">Seek Support, Show Support</p>
+				<p class="md-show h1 lato white">Seek Support, Show Support.</p>
+				<p class="md-hide h5 px2 white lato transparent">Find the support you need, when you need it.</p>
+				<p class="md-show h3 px2 white lato transparent">Find the support you need, when you need it.</p>
+			</div>
 
-					<div class="center mt4">
-						<p class="clearfix h4 lato white transparent">Learn more</p>
-						<div class="center mb2">
-							<img class="smallicon" src="images/down_arrow.png">
-						</div>
-
-					</div>
+			<div class="center mt4">
+				<p class="clearfix h4 lato white transparent">Learn more</p>
+				<div class="center mb2">
+					<img class="smallicon" src="images/down_arrow.png">
 				</div>
 
-			</header>
+			</div>
+		</div>
 
+	</header>
 			
 
-			<section class="container half-width mt3">
+			<section class="clearfix mt3">
 				
-			    <div class="center">
-			    	<form class="center" action="<?php echo $_POST['username'] . ".php";?>" method="POST" id="inputForm">
-			    	<!-- #the action field tells the form to be processed on this page -->
-			    	<!-- http://stackoverflow.com/questions/4783381/same-page-processing -->
-			    		<fieldset class="fieldset-reset bbox">
-							<legend class="mb2">Try it now:</legend>
-								<ul class="list-reset">
-									<li>
-								    	<label for="username" class="left">Username</label>
-								    	<input id="username" class="block full-width field-light my2" type="text" name="username" required value="<?php echo $_POST['username'];?>">
-									</li>
+			    <div class="sm-col-10 md-col-8 lg-col-4 mx-auto">
 
-									<label for="emotions" class="">I'm feeling...
-									<li class="full-width" name="emotions">
-										<input class="p2" type="checkbox" name="Emotion1" value="Stressed">Stressed
-										<input class="p2" type="checkbox" name="Emotion2" value="Frustrated">Frustrated    
-										<input class="p2" type="checkbox" name="Emotion3" value="Annoyed">Annoyed
-										<br>
-										<input class="p2" type="checkbox" name="Emotion4" value="Jealous">Jealous
-										<input class="p2" type="checkbox" name="Emotion5" value="Lonely">Lonely
-										<input class="p2" type="checkbox" name="Emotion6" value="Worried">Worried
+			    	<div class="sm-col-12 center mx-auto">
+						<img class="py4" src="images/tilt2_selfie.png" alt=" Screenshot of Mental Selfie Feature" width="360">
+			    	</div>
+
+			   		 <div class="sm-col-12">
+
+				    	<form class="" action="<?php echo $_POST['username'] . ".php";?>" method="POST" id="inputForm">
+				    	<!-- #the action field tells the form to be processed on this page -->
+				    	<!-- http://stackoverflow.com/questions/4783381/same-page-processing -->
+				    		<fieldset class="fieldset-reset">
+			
+									<ul class="list-reset center">
+
+										<label class="aquateal center" for="username">Username</label>
+										<li class="m2 center">
+									    	<input id="username" class="p2 field-light" type="text" name="username" required value="<?php echo $_POST['username'];?>">
+										</li>
+
+										<label for="emotions" class="aquateal">I'm feeling...</label>
+										<li class=" m2 dk-grey center">
+											<input type="checkbox" name="Emotion1" value="Stressed">Stressed
+											<input type="checkbox" name="Emotion2" value="Frustrated">Frustrated    
+											<input type="checkbox" name="Emotion3" value="Annoyed">Annoyed
+											<br>
+											<input type="checkbox" name="Emotion4" value="Jealous">Jealous
+											<input type="checkbox" name="Emotion5" value="Lonely">Lonely
+											<input type="checkbox" name="Emotion6" value="Worried">Worried
+											
+										</li>
 										
-									</li>
-									
-									<label for="because" class="">...becuase of...</label>
-									<li class="full-width" name="because">
-										<input class="p2" type="checkbox" name="because1" value="Homesickness">Homesickness
-										<input class="p2" type="checkbox" name="because2" value="Academics">Academics
-										<input class="p2" type="checkbox" name="because3" value="Relationships">Relationships
-										<br>
-										<input class="p2" type="checkbox" name="because4" value="Friendships">Friendships
-										<input class="p2" type="checkbox" name="because5" value="Work">Work
-										<input class="p2" type="checkbox" name="because6" value="Something crappy that happened">Something crappy happened	
-									</li>
-									
-									<li>
-										<label for="describe" class="left">Jot down a little about what you want to talk about.</label>
-										<textarea class="full-width field-light p2" type="text" name="describe" id="describe" placeholder="I dropped my apple, which was my only breakfast.."></textarea>
-									</li>
+										<label for="because" class="aquateal">...becuase of...</label>
+										<li class="m2 dk-grey center" name="because">
+											<input type="checkbox" name="because1" value="Homesickness">Homesickness
+											<input type="checkbox" name="because2" value="Academics">Academics
+											<input type="checkbox" name="because3" value="Relationships">Relationships
+											<br>
+											<input type="checkbox" name="because4" value="Friendships">Friendships
+											<input type="checkbox" name="because5" value="Work">Work
+											<input type="checkbox" name="because6" value="Something crappy that happened">Something crappy happened	
+										</li>
 
-								    <li class="full-width">
-								    	<label for="email" class="left">(Optional) Email Address</label>
-								    	<input id="email" class="block full-width field-light" type="email" name="email" value="" placeholder="For if you want to be added to out email list.">
-									</li>
+										<label for="describe" class="aquateal">Jot down a little about what you want to talk about.</label>									
+										<li class="m2 center">
+											<textarea class="field-light p2" type="text" name="describe" id="describe" placeholder="I dropped my apple, which was my only breakfast.."></textarea>
+										</li>
 
-									
-								</ul>
-								<button class="button center" type="submit" onclick="Makefile()">Submit</button>
-						</fieldset>
-					</form>	
+
+										<label for="email" class="aquateal">(Optional) Email Address</label>
+									    <li class="m2 center">
+									    	<input id="email" class="p2 field-light" type="email" name="email" value="" placeholder="John@Smith.com">
+										</li>
+
+										<li class="center">
+											<button class="mt2 h6 lato1 wide white round-button px2" type="submit" onclick="Makefile()">Submit</button>
+										</li>
+									</ul>
+							</fieldset>
+						</form>	
+
+					</div>
 				</div>
-				<hr>
 			</section>
 
 
@@ -204,10 +213,16 @@ session_start();
 			  <p class="lato blue px2 h5 py2 mb0">&copy; 2015 CHANGE OF MIND</p>
 			</div>
 
-			<div class="col-right">
-			  <a href="/" class="lato button py2 button-transparent">About us</a>
-			  <a href="/" class="lato button py2 button-transparent">Blog</a>
-			  <a href="/" class="lato button py2 button-transparent">Twitter</a>
+			<div class="md-hide col">
+<!-- 			 <a href="/" class="lato button py2 button-transparent">About us</a>
+			  <a href="/" class="lato button py2 button-transparent">Blog</a> -->
+			  <a href="/" class="lato button py2 button-transparent blue">Twitter</a>
+			</div>
+
+			<div class="md-show col-right">
+<!-- 			 <a href="/" class="lato button py2 button-transparent">About us</a>
+			  <a href="/" class="lato button py2 button-transparent">Blog</a> -->
+			  <a href="/" class="lato button py2 button-transparent blue">Twitter</a>
 			</div>
 
 

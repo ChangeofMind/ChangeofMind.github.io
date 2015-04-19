@@ -64,3 +64,15 @@ html {
 /*.main-features {
 	height: 100px;
 }*/
+
+.aquateal {
+	color: #45D292;
+}
+
+.dk-grey {
+	color: #111111;
+}
+
+a h1:hover {
+	text-decoration: none;
+}

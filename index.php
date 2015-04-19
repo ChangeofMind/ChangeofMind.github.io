@@ -276,7 +276,7 @@
 	<!--_____alpha test_____-->
 
 
-	<!-- <section class="clearfix mt4 mb4">
+	<section class="clearfix mt4 mb4">
 		
 		<h2 class="md-hide h4 center lato">Be apart of the movement today</h2>
 		<h2 class="md-show h2 center lato">Be apart of the movement today</h2>
@@ -288,7 +288,7 @@
 			   </fieldset>
 		</form>
 
-	</section> -->
+	</section>
 
 
 
